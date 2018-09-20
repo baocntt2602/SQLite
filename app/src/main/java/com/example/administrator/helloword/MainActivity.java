@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             customAdapter.notifyDataSetChanged();
             lvStudent.setSelection(customAdapter.getCount()-1);
+            // cm
         }
 
     }
